@@ -255,6 +255,7 @@ void playGame(Character& player, std::queue<Enemy>& enemies) {
 			std::cout << "\nEnter 1 to attack or 2 to use an item and prepare for attack:\n";
 			std::getline(std::cin, userChoice);
 
+
 			// Options for player choosing to attack
 			if (userChoice.compare("1") == 0) {
 
